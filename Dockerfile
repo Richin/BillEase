@@ -1,4 +1,3 @@
-
 FROM php:8.3.8-apache
 RUN a2enmod rewrite
 # Install dependencies
@@ -12,9 +11,6 @@ RUN docker-php-ext-configure intl \
     && docker-php-ext-install intl
 RUN docker-php-ext-install mbstring
 RUN docker-php-ext-install curl
-
-
-
 
 
 WORKDIR /var/www/html
