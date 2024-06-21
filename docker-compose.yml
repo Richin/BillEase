@@ -1,0 +1,10 @@
+version: '1.8'
+services:
+  billease:
+    build:
+      dockerfile: Dockerfile
+    container_name: billease
+    ports:
+      - 80:80
+    volumes:
+      - C:/laragon/www/study/billease:/var/www/html/billease/
