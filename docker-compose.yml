@@ -7,4 +7,4 @@ services:
     ports:
       - 80:80
     volumes:
-      - C:/laragon/www/study/billease:/var/www/html/billease/
+      - C:/laragon/www/study/billease/geminiservice:/var/www/html/billease/
